@@ -1,13 +1,13 @@
 :root {
-  --ink-deep: #0E2A3E;
-  --ink-panel: #123249;
-  --ink-panel-2: #16405C;
-  --paper: #EDEFE7;
-  --paper-dim: #B7C6CE;
-  --line: rgba(237, 239, 231, 0.22);
-  --line-strong: rgba(237, 239, 231, 0.45);
-  --signal: #E8A33D;
-  --signal-dim: rgba(232, 163, 61, 0.35);
+  --ink-deep: #2B1B12;
+  --ink-panel: #3E2723;
+  --ink-panel-2: #4E342E;
+  --paper: #F5E6D3;
+  --paper-dim: #C9AD8E;
+  --line: rgba(245, 230, 211, 0.20);
+  --line-strong: rgba(245, 230, 211, 0.40);
+  --signal: #CD8B4E;
+  --signal-dim: rgba(205, 139, 78, 0.35);
 
   --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
   --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -34,6 +34,7 @@ a { color: var(--signal); }
   position: fixed;
   inset: 14px;
   border: 1px solid var(--line);
+  border-radius: 10px;
   pointer-events: none;
   z-index: 50;
 }
@@ -42,6 +43,7 @@ a { color: var(--signal); }
   width: 18px;
   height: 18px;
   border: 1px solid var(--signal-dim);
+  border-radius: 4px;
 }
 .corner.tl { top: -1px; left: -1px; border-right: none; border-bottom: none; }
 .corner.tr { top: -1px; right: -1px; border-left: none; border-bottom: none; }
@@ -134,6 +136,7 @@ a { color: var(--signal); }
   text-decoration: none;
   color: var(--paper);
   border: 1px solid var(--line-strong);
+  border-radius: 6px;
   padding: 10px 18px;
   transition: border-color 0.2s ease, color 0.2s ease;
 }
@@ -201,6 +204,7 @@ section {
   font-size: 0.85rem;
   color: var(--signal);
   border: 1px solid var(--signal-dim);
+  border-radius: 5px;
   padding: 2px 8px;
 }
 
@@ -249,6 +253,7 @@ section {
   letter-spacing: 0.08em;
   color: var(--paper-dim);
   border: 1px solid var(--line);
+  border-radius: 5px;
   padding: 3px 9px;
   white-space: nowrap;
 }
@@ -278,6 +283,7 @@ section {
   letter-spacing: 0.03em;
   color: var(--paper);
   border: 1px solid var(--line-strong);
+  border-radius: 5px;
   padding: 4px 10px;
 }
 
