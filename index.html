@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashmika Ramsaran — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sheet-border" aria-hidden="true">
+  <span class="corner tl"></span><span class="corner tr"></span>
+  <span class="corner bl"></span><span class="corner br"></span>
+</div>
+
+<header class="hero">
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <nav class="topnav">
+    <span class="sheet-no">SHEET 01 / 04</span>
+    <div class="nav-links">
+      <a href="#systems">Systems</a>
+      <a href="#legend">Legend</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero-main">
+    <p class="eyebrow">// project drawings — computer science</p>
+    <h1>Ashmika<br>Ramsaran</h1>
+    <p class="hero-desc">Third-year Computer Science student who builds real systems, not just class exercises &mdash; database-backed desktop applications, concurrent programs, and the odd Leaflet map wedged into a WinForms app.</p>
+    <a class="hero-cta" href="#systems">View systems ↓</a>
+  </div>
+
+  <div class="title-block">
+    <div class="tb-cell"><span class="tb-label">Drawn by</span><span class="tb-value">A. Naidoo</span></div>
+    <div class="tb-cell"><span class="tb-label">Discipline</span><span class="tb-value">C# · SQL · C++</span></div>
+    <div class="tb-cell"><span class="tb-label">Location</span><span class="tb-value">Durban, ZA</span></div>
+    <div class="tb-cell"><span class="tb-label">Status</span><span class="tb-value">In progress</span></div>
+  </div>
+</header>
+
+<main>
+
+  <section id="systems" class="systems">
+    <h2 class="section-label"><span class="tag">01</span> Systems</h2>
+
+    <article class="system-card">
+      <div class="system-head">
+        <span class="system-id">SYS&thinsp;—&thinsp;01</span>
+        <h3>M2 Giant Group Operations &amp; Asset Management System</h3>
+        <span class="system-status">group project</span>
+      </div>
+      <p class="system-desc">
+        A business management application built for a tree services company, developed collaboratively
+        in C# WinForms against a SQL Server backend. Covers the full operational loop: client intake,
+        job requests, scheduling and calendar assignment, staff and asset allocation, and site photo
+        documentation with before/after tagging.
+      </p>
+      <ul class="system-details">
+        <li>Quote generation using Haversine-distance travel-fee calculation and 15% VAT</li>
+        <li>Invoicing and income/expense reporting via Crystal Reports</li>
+        <li>Site photo gallery with per-thumbnail error isolation</li>
+        <li>South African phone/email validation and coordinate bounding-box checks</li>
+        <li>Leaflet map embedded via WebView2 for job-site locations</li>
+      </ul>
+      <div class="system-stack">
+        <span>C#</span><span>WinForms</span><span>SQL Server</span><span>T-SQL</span><span>WebView2</span><span>Crystal Reports</span>
+      </div>
+    </article>
+
+    <article class="system-card">
+      <div class="system-head">
+        <span class="system-id">SYS&thinsp;—&thinsp;02</span>
+        <h3>Multi-threaded Merchandise Store System</h3>
+        <span class="system-status">individual project</span>
+      </div>
+      <p class="system-desc">
+        A concurrent store-management system written in C++, handling simultaneous transactions and
+        inventory operations across threads without corrupting shared state. Built as an exercise in
+        synchronisation primitives, race-condition avoidance, and designing for concurrent access
+        from the ground up rather than bolting it on afterward.
+      </p>
+      <div class="system-stack">
+        <span>C++</span><span>Multithreading</span><span>STL</span><span>Synchronisation</span>
+      </div>
+    </article>
+
+    <article class="system-card system-card--minor">
+      <div class="system-head">
+        <span class="system-id">SYS&thinsp;—&thinsp;03</span>
+        <h3>Personal Error Log &amp; Fuzzy Search Tool</h3>
+        <span class="system-status">in exploration</span>
+      </div>
+      <p class="system-desc">
+        An early-stage concept for a developer productivity tool: a searchable personal log of past
+        errors and their fixes, with fuzzy/semantic matching so a half-remembered stack trace can
+        still surface the right note. Scoped as an MVP around local SQLite storage, targeting VS Code
+        as the primary surface.
+      </p>
+      <div class="system-stack">
+        <span>SQLite</span><span>VS Code Extension</span><span>Concept</span>
+      </div>
+    </article>
+  </section>
+
+  <section id="legend" class="legend">
+    <h2 class="section-label"><span class="tag">02</span> Legend</h2>
+    <p class="section-sub">Symbols and tools referenced across the drawings above.</p>
+
+    <div class="legend-grid">
+      <div class="legend-group">
+        <h4>Languages</h4>
+        <div class="legend-row"><span class="sym">§</span> C#</div>
+        <div class="legend-row"><span class="sym">§</span> C++</div>
+        <div class="legend-row"><span class="sym">§</span> T-SQL</div>
+      </div>
+      <div class="legend-group">
+        <h4>Platforms</h4>
+        <div class="legend-row"><span class="sym">▢</span> WinForms</div>
+        <div class="legend-row"><span class="sym">▢</span> SQL Server</div>
+        <div class="legend-row"><span class="sym">▢</span> WebView2</div>
+      </div>
+      <div class="legend-group">
+        <h4>Practices</h4>
+        <div class="legend-row"><span class="sym">→</span> ERD &amp; DFD modelling</div>
+        <div class="legend-row"><span class="sym">→</span> UML sequence &amp; collaboration diagrams</div>
+        <div class="legend-row"><span class="sym">→</span> Parameterised SQL, no raw string concat</div>
+      </div>
+      <div class="legend-group">
+        <h4>Tooling</h4>
+        <div class="legend-row"><span class="sym">◆</span> Git &amp; GitHub (branch conflicts, rebases)</div>
+        <div class="legend-row"><span class="sym">◆</span> Crystal Reports</div>
+        <div class="legend-row"><span class="sym">◆</span> Visual Studio</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="notes" class="notes">
+    <h2 class="section-label"><span class="tag">03</span> Notes</h2>
+    <div class="note-card">
+      <p>
+        I'm currently maintaining an 80% aggregate through my third year of a Computer Science degree,
+        splitting time between coursework and a live group project built for a real client. I like the
+        parts of software that don't show up in a demo &mdash; the schema that has to hold up under a
+        bad join, the validation that catches the input a user actually types, the branch conflict that
+        needs an actual diagnosis instead of a force-push. I'm currently exploring graduate programmes,
+        including roles in IT audit, alongside continued backend and desktop development work.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="contact">
+  <div class="contact-inner">
+    <h2 class="section-label"><span class="tag">04</span> Contact</h2>
+    <div class="title-block title-block--footer">
+      <div class="tb-cell"><span class="tb-label">Email</span><span class="tb-value">hello@example.com</span></div>
+      <div class="tb-cell"><span class="tb-label">GitHub</span><span class="tb-value">github.com/yourusername</span></div>
+      <div class="tb-cell"><span class="tb-label">LinkedIn</span><span class="tb-value">linkedin.com/in/yourusername</span></div>
+      <div class="tb-cell"><span class="tb-label">Rev.</span><span class="tb-value">2026 · v1.0</span></div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
