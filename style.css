@@ -1,17 +1,14 @@
 :root {
  
- --ink-deep: #FAF7F2;          /* Main background */
-  --ink-panel: #F3EFE7;         /* Cards/panels */
-  --ink-panel-2: #EAE4DA;       /* Secondary panels */
-
-  --paper: #2B1B12;             /* Primary text */
-  --paper-dim: #6B5B53;         /* Secondary text */
-
-  --line: rgba(43, 27, 18, 0.12);
-  --line-strong: rgba(43, 27, 18, 0.24);
-
-  --signal: #C97A2B;            /* Accent */
-  --signal-dim: rgba(201, 122, 43, 0.20);
+  --ink-deep: #2B1B12;
+  --ink-panel: #3E2723;
+  --ink-panel-2: #4E342E;
+  --paper: #F5E6D3;
+  --paper-dim: #C9AD8E;
+  --line: rgba(245, 230, 211, 0.20);
+  --line-strong: rgba(245, 230, 211, 0.40);
+  --signal: #CD8B4E;
+  --signal-dim: rgba(205, 139, 78, 0.35);
 
   --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
   --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
